@@ -1,0 +1,21 @@
+# Project dependencies
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+src/pages
+.cache/
+
+# Build directories
+public/**/*
+live/**/*
+preview/**/*
+
+.DS_Store
+*.log
+yarn.lock
+manifest-*.yml
+.npmrc
+settings.js
+*.pem
+*.crt
+*.cer
+.env
